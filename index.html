@@ -64,7 +64,7 @@
     <!-- main -->
     <main>
       <!-- section 1 - hero section -->
-      <section class="hero bg-hero">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">
             Effective Solutions<br />
@@ -77,25 +77,13 @@
       <!-- section 2 - Benefits -->
       <section class="section">
         <div class="container">
-          <ul class="benefits-icon list">
-            <li class="benefits-icon-item">
-              <svg class="benefits-icon" width="64" height="64"><use href="./images/icons/icons.svg#benefits-one"></use></svg>
-</li>
-<li class="benefits-icon-item">
- <svg class="benefits-icon" width="64" height="64"><use href="./images/icons/icons.svg#benefits-two"></use></svg>
-
-</li>
-<li class="benefits-icon-item"> 
-<svg class="benefits-icon" width="64" height="64"><use href="./images/icons/icons.svg#benefits-three"></use></svg>
-
-</li>
-<li class="benefits-icon-item">
- <svg class="benefits-icon" width="64" height="64"><use href="./images/icons/icons.svg#benefits-four"></use></svg>
-
-</li>
-          </ul>
           <ul class="benefits list">
             <li class="item">
+              <div class="icon">
+                <svg class="benefits-icon" width="64" height="64">
+                  <use href="./images/icons/icons.svg#benefits-one"></use>
+                </svg>
+              </div>
               <h3 class="title">Strategy</h3>
               <p class="description">
                 Our goal is to identify the business<br />
@@ -105,7 +93,11 @@
             </li>
 
             <li class="item">
-
+              <div class="icon">
+                <svg class="benefits-icon" width="64" height="64">
+                  <use href="./images/icons/icons.svg#benefits-two"></use>
+                </svg>
+              </div>
               <h3 class="title">Punctuality</h3>
               <p class="description">
                 Bring the key message to the<br />
@@ -115,7 +107,11 @@
             </li>
 
             <li class="item">
-
+              <div class="icon">
+                <svg class="benefits-icon" width="64" height="64">
+                  <use href="./images/icons/icons.svg#benefits-three"></use>
+                </svg>
+              </div>
               <h3 class="title">Diligence</h3>
               <p class="description">
                 Research and confirm brands that<br />
@@ -125,7 +121,11 @@
             </li>
 
             <li class="item">
-
+              <div class="icon">
+                <svg class="benefits-icon" width="64" height="64">
+                  <use href="./images/icons/icons.svg#benefits-four"></use>
+                </svg>
+              </div>
               <h3 class="title">Technologies</h3>
               <p class="description">
                 Design practice focused on digital<br />
@@ -181,39 +181,64 @@
               <img
                 src="./images/mark-guerrero.jpg"
                 width="264"
+                height="260"
                 alt="Mark Guerrero"
                 class="image"
               />
 
               <h3 class="name">Mark Guerrero</h3>
               <p class="position">Product Designer</p>
-       <ul class="socmed-list list">
+              <ul class="socmed-list list">
                 <li class="socmed-item">
-                  <a href="https://instagram.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#instagram"></use>
-                  </svg>
+                  <a
+                    href="https://instagram.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to Instagram"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#instagram"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="socmed-item">
-                  <a href="https://twitter.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#twitter"></use>
-                  </svg> 
+                  <a
+                    href="https://twitter.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to Twitter"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#twitter"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="socmed-item">
-                  <a href="https://facebook.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#facebook"></use>
-                  </svg>
+                  <a
+                    href="https://facebook.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to Facebook"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#facebook"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="socmed-item">
-                   <a href="https://linkedin.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#linkedin"></use>
-                  </svg>
+                  <a
+                    href="https://linkedin.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to LinkedIn"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#linkedin"></use>
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -223,38 +248,63 @@
               <img
                 src="./images/tom-ford.jpg"
                 width="264"
+                height="260"
                 alt="Tom Ford"
                 class="image"
               />
               <h3 class="name">Tom Ford</h3>
               <p class="position">Frontend Developer</p>
-           <ul class="socmed-list list">
+              <ul class="socmed-list list">
                 <li class="socmed-item">
-                  <a href="https://instagram.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#instagram"></use>
-                  </svg>
+                  <a
+                    href="https://instagram.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to Instagram"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#instagram"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="socmed-item">
-                  <a href="https://twitter.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#twitter"></use>
-                  </svg>
+                  <a
+                    href="https://twitter.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to Twitter"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#twitter"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="socmed-item">
-                  <a href="https://facebook.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#facebook"></use>
-                  </svg>
+                  <a
+                    href="https://facebook.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to Facebook"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#facebook"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="socmed-item">
-                   <a href="https://linkedin.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#linkedin"></use>
-                  </svg>
+                  <a
+                    href="https://linkedin.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to LinkedIn"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#linkedin"></use>
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -264,38 +314,63 @@
               <img
                 src="./images/camila-garcia.jpg"
                 width="264"
+                height="260"
                 alt="Camila Garcia"
                 class="image"
               />
               <h3 class="name">Camila Garcia</h3>
               <p class="position">Marketing</p>
-               <ul class="socmed-list list">
+              <ul class="socmed-list list">
                 <li class="socmed-item">
-                  <a href="https://instagram.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#instagram"></use>
-                  </svg>
+                  <a
+                    href="https://instagram.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to Instagram"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#instagram"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="socmed-item">
-                  <a href="https://twitter.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#twitter"></use>
-                  </svg>
+                  <a
+                    href="https://twitter.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to Twitter"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#twitter"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="socmed-item">
-                  <a href="https://facebook.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#facebook"></use>
-                  </svg>
+                  <a
+                    href="https://facebook.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to Facebook"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#facebook"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="socmed-item">
-                   <a href="https://linkedin.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#linkedin"></use>
-                  </svg>
+                  <a
+                    href="https://linkedin.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to LinkedIn"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#linkedin"></use>
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -305,38 +380,63 @@
               <img
                 src="./images/daniel-wilson.jpg"
                 width="264"
+                height="260"
                 alt="Daniel Wilson"
                 class="image"
               />
               <h3 class="name">Daniel Wilson</h3>
               <p class="position">UI Designer</p>
-               <ul class="socmed-list list">
+              <ul class="socmed-list list">
                 <li class="socmed-item">
-                  <a href="https://instagram.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#instagram"></use>
-                  </svg>
+                  <a
+                    href="https://instagram.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to Instagram"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#instagram"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="socmed-item">
-                  <a href="https://twitter.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#twitter"></use>
-                  </svg>
+                  <a
+                    href="https://twitter.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to Twitter"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#twitter"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="socmed-item">
-                  <a href="https://facebook.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#facebook"></use>
-                  </svg>
+                  <a
+                    href="https://facebook.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to Facebook"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#facebook"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="socmed-item">
-                   <a href="https://linkedin.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socmed-icon" width="16" height="16">
-                    <use href="./images/icons/icons.svg#linkedin"></use>
-                  </svg>
+                  <a
+                    href="https://linkedin.com"
+                    class="socmed-link link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Link to LinkedIn"
+                  >
+                    <svg class="socmed-icon" width="16" height="16">
+                      <use href="./images/icons/icons.svg#linkedin"></use>
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -349,86 +449,128 @@
     <!-- Section 5 - Customers -->
     <section class="section">
       <div class="container">
-        <h2 class="section-title"> Customers </h2>
-        <ul class="customers-list list">
-          <li class="customers-item">
-            <a class="customers-link link" href=>
-              <svg class="customers-icon" width="104" height="56"><use href="./images/icons/icons.svg#icon-client-one"></use></svg></a></li>
-          <li class="customers-item">
-            <a class="customers-link link" href=>
-              <svg class="customers-icon" width="104" height="56"><use href="./images/icons/icons.svg#icon-client-two"></use></svg></a>
+        <h2 class="section-title">Customers</h2>
+        <ul class="partners list">
+          <li class="item">
+            <a class="customers-link link" href="">
+              <svg class="customers-icon" width="104" height="56">
+                <use href="./images/icons/icons.svg#icon-client-one"></use></svg
+            ></a>
           </li>
-          <li class="customers-item">
-            <a class="customers-link link" href=>
-              <svg class="customers-icon" width="104" height="56"><use href="./images/icons/icons.svg#icon-client-three"></use></svg></a>
+          <li class="item">
+            <a class="customers-link link" href="">
+              <svg class="customers-icon" width="104" height="56">
+                <use href="./images/icons/icons.svg#icon-client-two"></use></svg
+            ></a>
           </li>
-          <li class="customers-item">
-            <a class="customers-link link" href=>
-              <svg class="customers-icon" width="104" height="56"><use href="./images/icons/icons.svg#icon-client-four"></use></svg></a>
+          <li class="item">
+            <a class="customers-link link" href="">
+              <svg class="customers-icon" width="104" height="56">
+                <use
+                  href="./images/icons/icons.svg#icon-client-three"
+                ></use></svg
+            ></a>
           </li>
-          <li class="customers-item">
-            <a class="customers-link link" href>
-              <svg class="customers-icon" width="104" height="56"><use href="./images/icons/icons.svg#icon-client-five"></use></svg></a>
+          <li class="item">
+            <a class="customers-link link" href="">
+              <svg class="customers-icon" width="104" height="56">
+                <use
+                  href="./images/icons/icons.svg#icon-client-four"
+                ></use></svg
+            ></a>
           </li>
-          <li class="customers-item">
-            <a class="customers-link link" href=>
-              <svg class="customers-icon" width="104" height="56"><use href="./images/icons/icons.svg#icon-client-six"></use></svg></a>
+          <li class="item">
+            <a class="customers-link link" href="">
+              <svg class="customers-icon" width="104" height="56">
+                <use
+                  href="./images/icons/icons.svg#icon-client-five"
+                ></use></svg
+            ></a>
+          </li>
+          <li class="item">
+            <a class="customers-link link" href="">
+              <svg class="customers-icon" width="104" height="56">
+                <use href="./images/icons/icons.svg#icon-client-six"></use></svg
+            ></a>
           </li>
         </ul>
       </div>
     </section>
 
     <!-- footer -->
-    <footer class="page-footer bg-footer">
+    <footer class="page-footer">
       <div class="container">
-        <ul class="footer-list list">
-          <li class="footer-item">
-        <a href="./index.html" class="logo-link footer">
-          <span class="logo">WEB</span><span class="studio-footer">STUDIO</span>
-        </a>
+        <div class="footer">
+          <div class="footer-address">
+            <a href="./index.html" class="logo-link footer">
+              <span class="logo">WEB</span
+              ><span class="studio-footer">STUDIO</span>
+            </a>
 
-        <p class="footer-description">
-          Increase the flow of customers and<br />
-          sales for your business with digital<br />
-          marketing & growth solutions.
-        </p>
-        </li>
-        <li class="footer-item">
-          <p class="footer-socmed">
-            Social Media
-          </p>
-        <ul class="socmed-list list">
-                <li class="socmed-item">
-                  <a href="https://instagram.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
+            <p class="footer-description">
+              Increase the flow of customers and<br />
+              sales for your business with digital<br />
+              marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer-block">
+            <b class="footer-heading">Social Media</b>
+            <ul class="social-footer list">
+              <li class="icon-item">
+                <a
+                  href="https://instagram.com"
+                  class="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Link to Instagram"
+                >
                   <svg class="socmed-icon" width="16" height="16">
                     <use href="./images/icons/icons.svg#instagram"></use>
                   </svg>
-                  </a>
-                </li>
-                <li class="socmed-item">
-                  <a href="https://twitter.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
+                </a>
+              </li>
+              <li class="icon-item">
+                <a
+                  href="https://twitter.com"
+                  class="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Link to Twitter"
+                >
                   <svg class="socmed-icon" width="16" height="16">
                     <use href="./images/icons/icons.svg#twitter"></use>
                   </svg>
-                  </a>
-                </li>
-                <li class="socmed-item">
-                  <a href="https://facebook.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
+                </a>
+              </li>
+              <li class="icon-item">
+                <a
+                  href="https://facebook.com"
+                  class="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Link to Facebook"
+                >
                   <svg class="socmed-icon" width="16" height="16">
                     <use href="./images/icons/icons.svg#facebook"></use>
                   </svg>
-                  </a>
-                </li>
-                <li class="socmed-item">
-                   <a href="https://linkedin.com" class="socmed-link link" target="_blank" rel="noopener noreferrer">
+                </a>
+              </li>
+              <li class="icon-item">
+                <a
+                  href="https://linkedin.com"
+                  class="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Link to LinkedIn"
+                >
                   <svg class="socmed-icon" width="16" height="16">
                     <use href="./images/icons/icons.svg#linkedin"></use>
                   </svg>
-                  </a>
-                </li>
-              </ul>
-        </li>
-        </ul>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>

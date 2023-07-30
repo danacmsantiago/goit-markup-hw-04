@@ -175,18 +175,15 @@ body {
 
 /* Hero Section - Section 1 */
 
-.bg-hero {
+.hero {
+  padding: 200px 0;
+  text-align: center;
   background-image: url(../images/hero-bg.png),
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: var(--navyblue);
-}
-
-.hero {
-  padding: 200px 0;
-  text-align: center;
 }
 
 .hero-title {
@@ -295,15 +292,12 @@ body {
 }
 
 /*Icons - Benefits*/
-.benefits-icon.list {
-  display: flex;
-  gap: 36px;
-  margin-bottom: 8px;
-}
 
-.benefits-icon-item {
+.benefits .icon {
   padding: 24px 100px;
   background-color: var(--cloud);
+  gap: 36px;
+  margin-bottom: 8px;
 }
 
 /* Icons - Team */
@@ -346,17 +340,17 @@ body {
 
 /* Icons - Customers */
 
-.customers-list {
+.partners.list {
   display: flex;
   gap: 30px;
 }
 
-.customers-item {
+.partners > .item {
   width: calc((100% - 150px) / 6);
   height: 88px;
 }
 
-.customers-link {
+.partners .link {
   color: #8e8f99;
   width: 100%;
   height: 100%;
@@ -382,11 +376,8 @@ body {
 
 /* Footer */
 
-.page-footer.bg-footer {
-  background: var(--navyblue);
-}
-
 .page-footer {
+  background: var(--navyblue);
   padding: 60px 0;
 }
 
@@ -402,18 +393,55 @@ body {
   font-size: 16px;
 }
 
-.footer-list {
+.footer {
   display: flex;
   gap: 120px;
 }
 
-.footer-socmed {
+.footer-heading {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
   color: var(--white);
   margin-left: 12px;
   margin-bottom: 16px;
+}
+
+.social-footer {
+  display: flex;
+  gap: 24px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.social-footer > .icon-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-footer .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--iris);
+  color: var(--white);
+  border: 1px solid var(--iris);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.social-footer .socmed-icon {
+  fill: currentColor;
+  width: 16px;
+  height: 16px;
+}
+
+.social-footer .link:hover,
+.social-footer .link:focus,
+.social-footer .link:active {
+  background-color: var(--mintgreen);
+  border: 1px solid var(--mintgreen);
 }
 
 /* Portfolio Page */
