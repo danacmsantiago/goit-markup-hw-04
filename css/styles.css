@@ -178,8 +178,11 @@ body {
 .hero {
   padding: 200px 0;
   text-align: center;
-  background-image: url(../images/hero-bg.png),
-    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -304,7 +307,7 @@ body {
 .socmed-list {
   display: flex;
   gap: 24px;
-  padding: 10px;
+  padding-top: 10px;
   justify-content: center;
 }
 
@@ -319,7 +322,6 @@ body {
   align-items: center;
   background-color: var(--iris);
   color: var(--white);
-  border: 1px solid var(--iris);
   border-radius: 50%;
   width: 100%;
   height: 100%;
@@ -367,6 +369,11 @@ body {
   fill: currentColor;
 }
 
+.customers-icon:nth-child(4) {
+  width: 168px;
+  height: 88px;
+}
+
 .customers-link:hover,
 .customers-link:focus,
 .customers-link:active {
@@ -378,7 +385,8 @@ body {
 
 .page-footer {
   background: var(--navyblue);
-  padding: 60px 0;
+  padding: 60px 0 60px 60px;
+  margin: 0 auto;
 }
 
 .studio-footer {
@@ -395,7 +403,20 @@ body {
 
 .footer {
   display: flex;
-  gap: 120px;
+  flex-wrap: wrap;
+  margin-top: -12px;
+  margin-left: -50px;
+  align-items: baseline;
+}
+
+.footer-address {
+  margin-top: 12px;
+  margin-left: 25px;
+}
+
+.footer-block {
+  margin-top: 12px;
+  margin-left: 123px;
 }
 
 .footer-heading {
@@ -403,14 +424,12 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
   color: var(--white);
-  margin-left: 12px;
-  margin-bottom: 16px;
 }
 
 .social-footer {
   display: flex;
-  gap: 24px;
-  padding: 10px;
+  gap: 16px;
+  padding-top: 10px;
   justify-content: center;
 }
 
@@ -425,7 +444,6 @@ body {
   align-items: center;
   background-color: var(--iris);
   color: var(--white);
-  border: 1px solid var(--iris);
   border-radius: 50%;
   width: 100%;
   height: 100%;
@@ -433,8 +451,8 @@ body {
 
 .social-footer .socmed-icon {
   fill: currentColor;
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 }
 
 .social-footer .link:hover,
@@ -511,5 +529,4 @@ body {
 .project-card .substrate {
   border: 1px solid var(--cornflower);
   border-top: 0px;
-  width: 360px;
 }
