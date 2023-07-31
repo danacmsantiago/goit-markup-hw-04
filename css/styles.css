@@ -369,11 +369,6 @@ body {
   fill: currentColor;
 }
 
-.customers-icon:nth-child(4) {
-  width: 168px;
-  height: 88px;
-}
-
 .customers-link:hover,
 .customers-link:focus,
 .customers-link:active {
